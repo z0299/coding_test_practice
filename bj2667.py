@@ -47,7 +47,6 @@ houses_list = []
 for _ in range(n):
     houses_map.append(list(map(int, input().rstrip())))
 houses_visited = [[False]*n for _ in range(n)]
-#print(houses_map)
 
 #단지 수 만큼 돌며 단지 내 집 수 찾기
 #각 단지의 첫번째 집(출발점) 찾기

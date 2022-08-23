@@ -34,7 +34,6 @@ def BFS():
     
     while queue:
         x, y = queue.popleft() #popleft: 처음 들어간 것 부터 값을 뺀다(선입선출)
-        #print(x,y)
         if x == n-1 and y == m-1:
             print(visited[x][y])
             break

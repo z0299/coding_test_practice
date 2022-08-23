@@ -9,7 +9,7 @@ for i in range(n):
     class_list.append(list(map(int,sys.stdin.readline().split())))
     class_list[i].append(class_list[i][1]-class_list[i][0])
     
-class_list.sort(key=lambda x:(x[1],x[0]))
+class_list.sort(key=lambda x:(x[1],x[0]))   #list의 [1]자리 기준 정렬, 이후 [0]자리 기준 정렬
 using_list = list()
 using_list.append(class_list[0][1])
 

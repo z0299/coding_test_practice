@@ -8,8 +8,7 @@ n, m = map(int,input().split())
 if n == 1:
     print(1)
 elif n == 2:
-    print(min((m-1)//2+1, 4))
+    print(min((m-1)//2+1, 4))   #(m+2)//3은 틀렸다.왜지?
 elif m < 7:
     print(min(m, 4))
-elif n >= 3 and m >= 7:
     print(5+(m-7))
