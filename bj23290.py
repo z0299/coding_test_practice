@@ -26,7 +26,7 @@ def fish_move(fish_map, my_map, shark_x, shark_y):
         while (x<=0 or x>4 or y<=0 or y>4) or (type(my_map[x][y]) is list) or (x==shark_x and y==shark_y):
             x = fish_map[i][0] + c_dx[(fish_map[i][2]+count)%8]
             y = fish_map[i][1] + c_dy[(fish_map[i][2]+count)%8]
-            fish_map[i][2] = (fish_map[i][2]+count)%8
+            fish_map[i][2] = f_dx.(fish_map[i][2]+count)%8
             count += 1
         fish_map[i][0] = x
         fish_map[i][1] = y

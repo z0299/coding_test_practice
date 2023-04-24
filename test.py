@@ -11,4 +11,22 @@
 #                         row += 1
 #                     else:
 #                         break
-print('8'*2)
+#print('8'*2)
+# string = 'mirkovC4nizCC44'
+# if 'C4' in string:
+#     print("1")
+#     strings = string.split('C4')
+#     string2 = string.strip('C4')
+# print(string2)
+# print(strings)
+# word = 'ojkfls'
+# print(len(word))
+# print(word[3])
+# lis = [1, 2, 3]
+# li2 = []
+# li2.append(lis.pop(lis.index(2)))
+# print(li2)
+# print(lis)
+word = 'hello'
+if 'e' in word[0:1:]:
+    print("hi")
