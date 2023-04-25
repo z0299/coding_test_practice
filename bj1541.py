@@ -1,4 +1,3 @@
-
 string = input()
 result = 0
 
@@ -20,4 +19,3 @@ else:
     string = list(map(int, string.split('+')))
     result = sum(string)
 print(result)
-

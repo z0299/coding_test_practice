@@ -27,6 +27,13 @@
 # li2.append(lis.pop(lis.index(2)))
 # print(li2)
 # print(lis)
-word = 'hello'
-if 'e' in word[0:1:]:
-    print("hi")
+# word = 'hello'
+# if 'e' in word[0:1:]:
+#     print("hi")
+from collections import deque
+lst = deque([1, 2, 6])
+
+index = lst.index(max(lst))
+print(index)
+for i in range(0, 2, 2):
+    print(i)
