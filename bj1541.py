@@ -3,6 +3,7 @@ result = 0
 
 if '-' in string:
     string = list(string.split('-'))
+    print(string)
     temp_list = []
     for i in range(len(string)):
         if '+' in string[i]:
