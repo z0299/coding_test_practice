@@ -31,9 +31,7 @@
 # if 'e' in word[0:1:]:
 #     print("hi")
 from collections import deque
-lst = deque([1, 2, 6])
-
-index = lst.index(max(lst))
-print(index)
-for i in range(0, 2, 2):
-    print(i)
+lst = deque([1])
+print(lst)
+lst.popleft()
+print(lst)
