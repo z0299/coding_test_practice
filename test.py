@@ -13,8 +13,5 @@
         
 # arr = quick_sort([4,3,5,2])
 # print(arr)
-s = 'arsay'
-print(s[-1])
-s = s[:len(s)-1:]
-s = s[::-1]
-print(s)
+a = 10 // 5
+print(a)
