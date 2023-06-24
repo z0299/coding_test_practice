@@ -8,10 +8,6 @@ def dfs(i, temp):
         dfs(j, temp)
         temp.pop()
         
-    
-    
-    
-
 n, m = map(int, input().split())
 nums = list(map(int, input().split()))
 nums.sort()
