@@ -84,7 +84,7 @@ def bfs():
             flag = visited[x][y]
         else:
             flag = "FIRE"
-        
+
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
