@@ -13,5 +13,5 @@
         
 # arr = quick_sort([4,3,5,2])
 # print(arr)
-a = 10 // 5
-print(a)
+s1 = 'REMEMBER'
+print(s1[:1])
