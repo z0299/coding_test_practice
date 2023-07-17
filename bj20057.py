@@ -5,7 +5,7 @@ tx = ty = int(n/2)
 
 # 토네이도 방향에 맞춰 비율 배열 변경 (반시계 90도)
 def rotate_c90(proportion):
-    new_proportion = list(reversed(list(zip(*proportion))))
+    new_proportion = list(map(list, zip(*proportion)))[::-1]
     return new_proportion
 
 p_left = [[0, 0, 0.02, 0, 0], [0, 0.1, 0.07, 0.01, 0], 

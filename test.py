@@ -15,3 +15,9 @@
 # print(arr)
 s1 = 'REMEMBER'
 print(s1[:1])
+
+arr = [[1, 2, 3, 4], [7, 8, 9, 10], [13, 14, 15, 16], [19, 20, 21, 22]]
+B = list(map(list, zip(*arr)))[::-1]
+print(B)
+A = list(map(list, zip(*arr[::-1])))
+print(A)
