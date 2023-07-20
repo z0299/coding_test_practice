@@ -1,3 +1,4 @@
+# dfs 백트래킹 다시풀어보기!
 n, m = map(int, input().split())
 board = [list(map(int, input().split())) for _ in range(n)]
 answer = 99999
@@ -31,8 +32,8 @@ def dfs(depth, idx):
     
     # combination 구현
     for i in range(idx, len(chicken)):
-        if chicken[i] in choosen_chicken_list:
-            continue
+        # if chicken[i] in choosen_chicken_list:
+        #     continue
         
         choosen_chicken_list.append(chicken[i])
         dfs(depth+1, i+1)
@@ -40,3 +41,4 @@ def dfs(depth, idx):
         
 dfs(0, 0)
 print(answer)
+
