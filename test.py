@@ -21,3 +21,5 @@ B = list(map(list, zip(*arr)))[::-1]
 print(B)
 A = list(map(list, zip(*arr[::-1])))
 print(A)
+
+print('{}와 {}'.format('Kang', 20))
