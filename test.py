@@ -23,3 +23,6 @@ A = list(map(list, zip(*arr[::-1])))
 print(A)
 
 print('{}와 {}'.format('Kang', 20))
+
+print(5/2)
+print(5//2)

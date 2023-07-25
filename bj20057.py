@@ -1,7 +1,7 @@
 # 입력값 받기, 토네이도 초기위치 설정
 n = int(input())
 board = [list(map(int, input().split())) for _ in range(n)]
-tx = ty = int(n/2)
+tx = ty = n//2
 
 # 토네이도 방향에 맞춰 비율 배열 변경 (반시계 90도)
 def rotate_c90(proportion):
