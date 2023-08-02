@@ -26,3 +26,12 @@ print('{}와 {}'.format('Kang', 20))
 
 print(5/2)
 print(5//2)
+
+from collections import deque
+
+test = deque([1, 2, 3, 4, 5])
+test.rotate(1)
+print(test)		# [5, 1, 2, 3, 4]
+
+test.rotate(-2)
+print(test)		# [2, 3, 4, 5, 1]
