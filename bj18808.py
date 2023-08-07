@@ -1,4 +1,4 @@
-# 2:20 ~
+# 2:20 ~ 3:50
 n, m, k = map(int, input().split())
 notebook = [[0]*m for _ in range(n)]
 
