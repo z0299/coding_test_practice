@@ -35,3 +35,7 @@ print(test)		# [5, 1, 2, 3, 4]
 
 test.rotate(-2)
 print(test)		# [2, 3, 4, 5, 1]
+
+s = '12345'
+print(s.startswith('1'))
+print(s.startswith('3'))
