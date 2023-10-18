@@ -18,7 +18,6 @@ def bfs(x, y):
                 
     return 0
     
-
 t = int(input())
 for _ in range(t):
     m, n, k = map(int, input().split())
